@@ -10,14 +10,13 @@
   <a class="navbar-brand">MVC Blog</a>
     {{#if login}}
     <div>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Blogs</button>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Input</button>
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
     </div>
     {{else}}
     <div>
-    <button class="btn btn-outline-success  my-sm-0" type="submit">Blogs</button>
-    <button class="btn btn-outline-success my-sm-0" type="submit" id="login">Login</button>
+    <a href="/"><button class="btn btn-outline-success  my-sm-0" type="submit">Blogs</button></a>
+    <a href="/post"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Post</button></a>
+    <a href="/login"><button class="btn btn-outline-success my-sm-0" type="submit" id="login">Login</button></a>
     </div>
     {{/if}} 
 </nav>
