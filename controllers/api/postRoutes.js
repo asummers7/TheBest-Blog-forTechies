@@ -1,7 +1,8 @@
-// const router = require('express').Router();
+const router = require('express').Router();
+const withAuth = require('../../utils/auth')
 
-// router.post("/", async (req, res) => {
-//     res.sendFile("comments");
-// });
+router.post("/", withAuth, async (req, res) => {
+    res.render("comments");//create a handlebar page for comments and replies
+});
 
-// module.exports = router
+module.exports = router
