@@ -17,10 +17,5 @@ router.post('/', async (req, res) => {
   }
 });
 
-// router.get("/:id")
 
-// ({
-//   ...req.body, 
-//   user_id: req.session.userId
-// })
 module.exports = router
