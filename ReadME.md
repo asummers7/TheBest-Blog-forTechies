@@ -13,6 +13,7 @@ This was a challenge to work with the MVC dynamic. The student was to utilize th
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  - [Deployed Link](#deployed-link)
   - [Screenshots](#screenshots)
   - [Questions](#questions)
 
@@ -30,6 +31,9 @@ No contributing allowed.
 
 ## Tests
 no tests required.
+
+## Deployed Link 
+https://thebestblogfortechies.herokuapp.com/
 
 ## Screenshots
 ![](images/Screen%20Shot%202023-03-15%20at%209.37.03%20PM.png)
